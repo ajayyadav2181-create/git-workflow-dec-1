@@ -2,7 +2,7 @@ name: Print Message
 on:
   push:
     branches:
-      -main
+      - main
 
 jobs: 
   say-hello:
@@ -10,5 +10,4 @@ jobs:
 
     steps:
       - name: Print a Message
-        run: echo "Hello! Push detected on Main Branch"
-        
+      - run: echo "Hello! Push detected on Main Branch"
